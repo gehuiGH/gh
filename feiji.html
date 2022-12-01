@@ -1,0 +1,56 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<style type="text/css">
+	body{background:url(image/背景图2.png) no-repeat;}
+	
+	
+	</style>
+<head>
+    <title>世界级飞机大战</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+<body>
+<br>
+
+
+<div id="contentdiv">
+    <div id="startdiv">
+        <img src="image/LOGO.png"width="480px">
+        <div id="start" onclick="begin()">
+          <p>开始游戏</p>
+          <p>&nbsp;</p>
+        </div>
+        <div id="exit" onclick="ExitGame()">退出</div>
+    </div>
+    <div id="maindiv">
+        <div id="scorediv">
+            <label>分数：</label>
+            <label id="label">0</label>
+        </div>
+        <div id="suspenddiv">
+            <button>回到游戏</button><br/>
+            <button>返回主页
+            </button>
+        </div>
+        <div id="enddiv">
+            <p class="plantext">本局得分</p>
+            <p id="planscore">0</p>
+            <div id="jixua"><button onclick="jixu()">退出！</button></div>
+        </div>
+    </div>
+</div>
+	<h2><font color="#20CD2F">第三组项目（全民飞机大战）</font></h2>
+	
+<div>
+    <audio id="zhuxuanlv" src="audio/bgm_zhuxuanlv.mp3" loop></audio>
+    <audio id="click-music" src="audio/effcet_sfx_shiqu.mp3"></audio>
+    <audio id="fight-music" src="audio/bgm_zhandou2.mp3" loop></audio>
+    <audio id="fire-music" src="audio/arrow_shot.wav"></audio>
+    <audio id="hit-music" src="audio/meteorit_explode.mp3"></audio>
+</div>
+</div>
+
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>
